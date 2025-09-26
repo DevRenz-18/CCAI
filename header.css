@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background: linear-gradient(rgb(92, 171, 171), rgb(157, 66, 178));
+    font-family: tahoma, arial;
+}
+#header {
+    background: linear-gradient(rgb(115, 117, 232),rgb(58, 0, 159));
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+}
+.pic {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+#title {
+    flex: 1;
+    align-items: center;
+    display: flex;
+}
+.selection {
+    padding-right: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p {
+    display: inline-block;
+    color: rgb(224, 224, 72);
+    font-size: 13px;
+}
+.name {
+    font-size: 20px;
+    color: rgb(50, 232, 50);
+}
+img {
+    width: 65px;
+    margin: 12px;
+    border-radius: 100%;
+}
+a {
+    text-decoration: none;
+    color: rgb(224, 224, 72);
+    transition: color 0.3s, text-decoration 0.3;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(156, 156, 40);
+}
